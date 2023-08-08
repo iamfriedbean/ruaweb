@@ -1,6 +1,6 @@
 # ruaweb - aRe yoU A WEB
 Fast Web/HTTP checker using its own custom list of web ports (e.g. 80,443,8080,8008 and lots,lots more) use by different technologies identified from various testing engagements.
-It takes a list of domains and checks for running web service at different ports. 
+It takes a list of domains and checks for running web service at different ports. Only domains with running web service (active) will be returned.
 
 ## Basic Usage
 ```
