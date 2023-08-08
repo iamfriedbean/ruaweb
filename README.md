@@ -31,3 +31,6 @@ echo 'github.com' | ruaweb
 https://github.com:443, 200, "GitHub: Let’s build from here · GitHub", GitHub.com
 
 ```
+## Installation
+
+Part of Beanscan Web Attack Surface Scanner. See beanscan repository.
