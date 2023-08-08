@@ -1,5 +1,5 @@
 # ruaweb - aRe yoU A WEB
-Fast Web/HTTP checker using its own custom list of web ports use by different technologies identified from various testing engagements.
+Fast Web/HTTP checker using its own custom list of web ports (e.g. 80,443,8080,8008 and lots,lots more) use by different technologies identified from various testing engagements.
 It takes a list of domains and checks for running web service at different ports. 
 
 ## Basic Usage
@@ -23,7 +23,7 @@ cat domains.txt | ruaweb -threads 30 -timeout 5
 ```
 
 ## Output
-The results are displayed as standard output. It returns the URL including the identified protocol(http/https), status code, http title and server if available.
+The results are displayed as standard output. It returns the URL including the identified protocol(http/https),port used, status code, http title and server if available.
 
 ```
 echo 'github.com' | ruaweb
